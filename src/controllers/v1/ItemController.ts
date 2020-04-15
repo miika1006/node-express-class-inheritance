@@ -6,6 +6,9 @@ export default class ItemController extends BaseController
   implements AppController {
   constructor(app: Application, repository: AppRepository) {
     super("item/", app, repository);
-    this.app = app;
+  }
+  configure() {
+    console.log(`configuring ItemController with default routes`);
+    super.configure();
   }
 }
