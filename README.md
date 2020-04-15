@@ -15,6 +15,5 @@ a Node + Express -REST service with typescript using classes and inheritance.
 index.ts uses App class to create the express app and configure it.
 Controllers are injected to App that will call configure() on them.
 configure() contains all express route configurations for every controller.
-There is a default implementation in BaseController.
 
-Default implementation uses Repository, that has simple CRUD functions to save and get data. This app only sets data to array in memory.
+There is a default implementation in BaseController. Default implementation uses generic Repository, that has simple CRUD functions to save and get data. This app uses in memory array to store and get data.
