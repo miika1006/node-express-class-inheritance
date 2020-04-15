@@ -17,3 +17,5 @@ Controllers are injected to App that will call configure() on them.
 configure() contains all express route configurations for every controller.
 
 There is a default implementation in BaseController. Default implementation uses generic Repository, that has simple CRUD functions to save and get data. This app uses in memory array to store and get data.
+
+To add a CRUD functionality to any new object, create new Controller that inherits BaseController and add that controller to controllers/index.ts.
