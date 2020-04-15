@@ -1,7 +1,7 @@
 {
-  "name": "note-rest",
+  "name": "node-express-class-inheritance",
   "version": "0.0.1",
-  "description": "testi rest palvelu",
+  "description": "Simple express service with classes and inheritance.",
   "main": "index.js",
   "scripts": {
     "start": "node dist/index",
